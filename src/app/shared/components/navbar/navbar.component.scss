@@ -1,0 +1,18 @@
+/* CSS mínimo necessário para funcionalidade */
+.dropdown-content {
+  display: none;
+}
+
+.group:hover .dropdown-content {
+  display: block;
+}
+
+/* Garantir que o dropdown fique sobre outros elementos */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  z-index: 1;
+}

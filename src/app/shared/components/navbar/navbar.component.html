@@ -1,1 +1,20 @@
-<p>navbar works!</p>
+<div class="navbar bg-gray-800 font-sans">
+  <div class="flex">
+    <a href="#home" class="px-4 py-2 text-white hover:bg-red-500">Home</a>
+    <a href="#news" class="px-4 py-2 text-white hover:bg-red-500">News</a>
+
+    <div class="dropdown group relative">
+      <button class="dropbtn px-4 py-2 text-white hover:bg-red-500 bg-inherit focus:outline-none">
+        Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content absolute hidden min-w-[160px] group-hover:block">
+        <div class="bg-gray-50 shadow-lg">
+          <a href="#" class="block w-full px-4 py-2 text-left text-black hover:bg-gray-200">Link 1</a>
+          <a href="#" class="block w-full px-4 py-2 text-left text-black hover:bg-gray-200">Link 2</a>
+          <a href="#" class="block w-full px-4 py-2 text-left text-black hover:bg-gray-200">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

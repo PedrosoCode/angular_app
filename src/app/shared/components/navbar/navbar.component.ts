@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+// navbar.component.ts
+import { Component, HostListener } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
-  imports: [],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  styleUrls: ['./navbar.component.scss'],
+  imports: [CommonModule]
 })
 export class NavbarComponent {
 
